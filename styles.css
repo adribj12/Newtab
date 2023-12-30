@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.contenedor{
+    position: relative;
+    margin: auto;
+    display: flex;
+    left: 60px;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+    width: 50%;
+    max-width: 960px;
+
+}
+
+.contenido {
+    height: 240px;
+    width: 240px;
+    background-color: purple;
+    margin: 5px;
+    border-radius: 6px;  
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    width: 100%;
+    text-align: end;
+}
