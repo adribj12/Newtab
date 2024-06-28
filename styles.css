@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item {
+    background-color: purple;
+    border-radius: 6px;
+    color: #fff;
+    width: 23.5%;
+    flex: none;
+    width: calc((100% - 20px) / 3) ;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: top;
+
+
+
+    @media screen and (min-width: 500px){  
+    width: calc((100% - 20px) / 3);
+    height: calc((100% - 20px)/ 3);
+    }
+}
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    width: 100%;
+    text-align: end;
+}
+
+
